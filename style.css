@@ -1,4 +1,6 @@
-/* General Page Styling */
+/* ========================= */
+/* General Styling for All Pages */
+/* ========================= */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -12,14 +14,16 @@ body {
     margin-bottom: 20px;
   }
   
-  /* Contact Us Form Styling */
+  /* ========================= */
+  /* Styling for Contact Us Page (contact.html) */
+  /* ========================= */
   form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
   form input, form textarea {
@@ -44,14 +48,16 @@ body {
     background-color: #218838;
   }
   
-  /* Product Details Page Styling */
+  /* ========================= */
+  /* Styling for Product Details Page (product-details.html) */
+  /* ========================= */
   .product {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 30px auto;
     background: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
@@ -63,13 +69,14 @@ body {
   }
   
   .product h2 {
+    font-size: 28px;
     color: #333;
     margin-bottom: 10px;
   }
   
   .product p {
-    font-size: 16px;
-    color: #555;
+    font-size: 18px;
+    color: #666;
     margin-bottom: 10px;
   }
   
