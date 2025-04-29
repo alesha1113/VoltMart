@@ -79,4 +79,14 @@ body {
     color: #666;
     margin-bottom: 10px;
   }
-  
+  const fs = require('fs');
+
+fs.readFile('config.json', 'utf8', (err, data) => {
+    if (err) {
+        console.error("Error reading config file:", err);
+        return;
+    }
+    const config = JSON.parse(data);
+    console.log("App Name:", config.app.name);
+    console.log("Database Host:", config.database.host);
+});
